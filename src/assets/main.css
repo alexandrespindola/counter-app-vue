@@ -1,0 +1,41 @@
+/* @import './base.css'; */
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #41B883, #34495E);
+}
+
+h1 {
+  color: white;
+}
+
+.positive {
+  color: blue;
+}
+
+.zero {
+  color: white;
+}
+
+.negative {
+  color: red;
+}
+
+.button {
+  background-color: #2c5282;
+  color: #ffffff;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  transition-property: all;
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+  background-color: #ff6600;
+}
+
+.button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed
+}
